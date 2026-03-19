@@ -323,8 +323,8 @@
     /* awards section */
     /* Responsive */
 @media (max-width: 991px) {
-    .d2c_awards_card img {
-        height: 220px;
+    .d2c_awards_column.horizon-flare .d2c_awards_card {
+        width: 70%;
     }
 }
 
@@ -333,11 +333,10 @@
         padding: 50px 0;
     }
 
-    .d2c_awards_card img {
-        height: 200px;
+    .d2c_awards_column.horizon-flare .d2c_awards_card {
+        width: 85%;
     }
 }
-
     /* contact section */
     .d2c_contact{
         padding-top: 0px;
