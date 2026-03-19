@@ -766,19 +766,28 @@ body .d2c_mobile_view {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
+/* All cert images — fully visible, no cropping */
 .d2c_awards_card img {
     width: 100%;
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
     display: block;
     transition: transform 0.4s ease, filter 0.3s ease;
     filter: brightness(0.92);
 }
 
 .d2c_awards_card:hover img {
-    transform: scale(1.04);
+    transform: scale(1.02);
     filter: brightness(1);
+}
+
+/* Horizon Flare — vertical cert, shrink the card width */
+.d2c_awards_column.horizon-flare {
+    display: flex;
+    justify-content: center;
+}
+
+.d2c_awards_column.horizon-flare .d2c_awards_card {
+    width: 55%;
 }
 
 /* Last card sits alone — center it */
