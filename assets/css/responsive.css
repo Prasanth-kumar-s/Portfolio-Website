@@ -321,9 +321,22 @@
     }
 
     /* awards section */
-    .d2c_awards_card{
-        padding: 30px 20px;
+    /* Responsive */
+@media (max-width: 991px) {
+    .d2c_awards_card img {
+        height: 220px;
     }
+}
+
+@media (max-width: 576px) {
+    .d2c_awards {
+        padding: 50px 0;
+    }
+
+    .d2c_awards_card img {
+        height: 200px;
+    }
+}
 
     /* contact section */
     .d2c_contact{
