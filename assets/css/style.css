@@ -487,6 +487,29 @@ body .d2c_mobile_view {
 .d2c_services .d2c_header{
   margin-bottom: 70px;
 }
+
+/* Video Styling */
+.video-container iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Smooth hover effect */
+.video-container {
+  transition: all 0.3s ease;
+}
+
+.video-container:hover {
+  transform: scale(1.02);
+}
+
+/* Optional: Better spacing on mobile */
+@media (max-width: 768px) {
+  .video-container {
+    margin-bottom: 20px;
+  }
+}
 /* ========================== services section end ============================ */
 
 /* ========================== counter section start ============================ */
